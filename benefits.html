@@ -76,7 +76,7 @@
 			</div>
 		</div> -->
 
-        <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel center" data-indicators="true">
             <div class="carousel-fixed-item center">
                 <a class="btn waves-effect white grey-text darken-text-2">button</a>
             </div>
@@ -140,7 +140,9 @@
 		<script src="js/init.js"></script>
 
         <script type="text/javascript">
-            $('.carousel.carousel-slider').carousel({full_width: true});
+            $(document).ready(function(){
+                $('.carousel').carousel();
+            });
         </script>
 	</body>
 </html>
