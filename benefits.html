@@ -76,32 +76,27 @@
 			</div>
 		</div> -->
         <div class="container" id="benefits">
-            <!-- <div class="section"> -->
-                <div class="carousel center" data-indicators="true">
-                    <div class="carousel-item red white-text" href="#one!">
-                        <h2>Ahorro de dinero</h2>
-                        <ul>
-                            <li>Evita los gastos extras que supone la contratación de un empleado fijo (seguridad social, vacaciones, pagas extras, etc.) Como contratista independiente, el asistente virtual se encarga de sus propios gastos.</li>
-                            <li>No tiene que invertir en el espacio físico, ni en el equipamiento o el dinero que supone tener una oficina en pleno funcionamiento durante las horas laborables (alquiler, impuestos, mantenimiento, habilitaciones, etc.). Los asistentes virtuales utilizan sus propios equipos de oficina y pagan los gastos ocasionados por el trabajo ejecutado (energía eléctrica, equipamiento, suministros de oficina, etc. )</li>
-                            <li>Olvídese de pagar por horas de ocio, no productivas (coffee breaks, desayunos, períodos de baja actividad, etc.) Con un asistente virtual pagará sólo por las horas reales trabajadas ~ ya sea una hora al mes o varias horas ~ o por el tiempo concreto que el asistente  utiliza en completar la tarea encomendada.</li>
-                        </ul>
-
-                        <p class="white-text">This is your first panel</p>
-                    </div>
-                    <div class="carousel-item amber white-text" href="#two!">
-                        <h2>Second Panel</h2>
-                        <p class="white-text">This is your second panel</p>
-                    </div>
-                    <div class="carousel-item green white-text" href="#three!">
-                        <h2>Third Panel</h2>
-                        <p class="white-text">This is your third panel</p>
-                    </div>
-                    <div class="carousel-item blue white-text" href="#four!">
-                        <h2>Fourth Panel</h2>
-                        <p class="white-text">This is your fourth panel</p>
-                    </div>
+            <div class="carousel carousel-slider center" data-indicators="true">
+                <div class="carousel-fixed-item center">
+                    <a class="btn waves-effect white grey-text darken-text-2">button</a>
                 </div>
-            <!-- </div> -->
+                <div class="carousel-item red white-text" href="#one!">
+                    <h2>First Panel</h2>
+                    <p class="white-text">This is your first panel</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                    <h2>Second Panel</h2>
+                    <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                    <h2>Third Panel</h2>
+                    <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                    <h2>Fourth Panel</h2>
+                    <p class="white-text">This is your fourth panel</p>
+                </div>
+            </div>
         </div>
 
 		<footer class="page-footer teal">
@@ -146,9 +141,7 @@
 		<script src="js/init.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function(){
-                $('.carousel').carousel();
-            });
+            $('.carousel.carousel-slider').carousel({full_width: true});
         </script>
 	</body>
 </html>
