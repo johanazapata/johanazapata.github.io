@@ -40,7 +40,54 @@
 					<br><br>
 					<h1 class="header center teal-text text-lighten-2">Contacto</h1>
 					<div class="row center">
-						<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+						<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+          <label for="disabled">Disabled</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Email</label>
+        </div>
+      </div>
+    </form>
+  </div>
+        
+
+Prefilling Text Inputs
+If you are having trouble with the labels overlapping prefilled content, Try adding class="active" to the label. 
+You can also call the function Materialize.updateTextFields(); to reinitialize all the Materialize labels on the page if you are dynamically adding inputs.
+
+
+Alvin
+First Name
+
+  <div class="row">
+    <div class="input-field col s6">
+      <input value="Alvin" id="first_name2" type="text" class="validate">
+      <label class="active" for="first_name2">First Name</label>
+    </div>
+  </div>
 					</div>
 				</div>
 			</div>
