@@ -53,11 +53,11 @@
                             <div class="row">
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">person_pin</i>
-                                    <input id="first_name" type="text" class="validate">
+                                    <input id="first_name" name="name" type="text" class="validate">
                                     <label for="first_name">Primer nombre</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input id="last_name" type="text" class="validate">
+                                    <input id="last_name" name="lastName" type="text" class="validate">
                                     <label for="last_name">Apellido</label>
                                 </div>
                             </div>
@@ -65,12 +65,12 @@
                             <div class="row">
                                 <div class="input-field col s8">
                                     <i class="material-icons prefix">email</i>
-                                    <input id="email" type="email" class="validate">
+                                    <input id="email" name="email" type="email" class="validate">
                                     <label for="email">Email</label>
                                 </div>
                                 <div class="input-field col s4">
                                     <i class="material-icons prefix">phone</i>
-                                    <input id="tel" type="tel" class="validate">
+                                    <input id="tel" name="tel" type="tel" class="validate">
                                     <label for="tel">Teléfono</label>
                                 </div>
                             </div>
@@ -78,8 +78,8 @@
                             <div class="row">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">mode_edit</i>
-                                    <textarea id="comentarios" class="materialize-textarea"></textarea>
-                                    <label for="comentarios">Comentarios</label>
+                                    <textarea id="comments" class="materialize-textarea" name="comments"></textarea>
+                                    <label for="comments">Comentarios</label>
                                 </div>
                             </div>
 
@@ -88,6 +88,7 @@
                                     <button class="waves-effect waves-light btn-large" type="submit">Enviar</a>
                                 </div>
                             </div>
+                            
                             <input type="hidden" name="_cc" value="mario@polinom.io,johana@delaboratorio.com" />
                             <input type="hidden" name="_subject" value="Contacto desde Web " />
                             <input type="text" name="_gotcha" style="display:none" />
